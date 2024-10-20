@@ -1,8 +1,10 @@
 {
   "scripts": {
+    "publish": "npm run docs:build && npm run docs:publish",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:publish": "npx wrangler pages deploy ./docs/.vitepress/dist --project-name=supeprojects"
   },
   "devDependencies": {
     "vitepress": "^1.4.1"
