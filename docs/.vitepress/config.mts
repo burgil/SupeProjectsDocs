@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Supe Projects Docs",
   description: "The place where all your technological super powers meet!",
   themeConfig: {
-    logo: '/assets/logo.png',
+    logo: '/images/logo.png',
     search: {
       provider: 'local',
       options: {
